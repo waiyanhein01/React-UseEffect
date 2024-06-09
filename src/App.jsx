@@ -1,9 +1,12 @@
 import React from 'react'
+import HideShow from './components/HideShow'
+import Counter from './components/Counter'
 
 const App = () => {
   return (
     <div>
-      App
+      <HideShow/>
+      {/* <Counter/> */}
     </div>
   )
 }
